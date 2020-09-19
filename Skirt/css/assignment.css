@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#app_cont{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+#ac_child1{
+    flex: 1;
+    background-color: coral;
+}
+#ac_child2{
+    flex: 1;
+    background-color: chartreuse;
+}
+#img_cont{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+}
+#upper_layerflex{
+    width: 100%;
+    height: 100%;
+    /* this background color will make the site look exactly as assignment template */
+    /* background-color: rgba(0, 0, 255, 0.164); */
+    display: flex;
+    flex-direction: column;
+}
+#ulflexup{
+    flex: 0.5;
+    width: 100%;
+}
+#navbar{
+    display: flex;
+    background-color: rgb(3, 3, 46);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#nbchild1{
+    flex: 1;
+    text-align: end;
+}
+#nbchild1 nav{
+    display: inline-block;
+    margin: 4px 5px;
+    padding: 3px;
+}
+#nbchild2{
+    flex: 2;
+    text-align: center;
+}
+#nbchild2 nav{
+    display: inline-block;
+    margin: 4px 5px;
+    padding: 3px;
+}
+#nbchild3{
+    flex: 1;
+    text-align: start;
+}
+#nbchild3 nav{
+    display: inline-block;
+    margin: 4px 5px;
+    padding: 3px;
+}
+/* this is the style used for list-item in my html */
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+    margin: 0 7px 0 7px;
+    padding: 5px;
+} */
+a{
+    color: white;
+    text-decoration: none;
+}
+#ulflexdwn{
+    flex: 5;
+    width: 100%;
+}
+#firstflexdwn{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#ffdchild1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    flex: 1;
+}
+#btn{
+    background-color: rgb(3, 3, 46);
+    color: white;
+    padding: 3px;
+}
+#ffdchild2{
+    flex: 1;
+}
+#secondflexdwn{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+.sfdfield{
+    background-color: rgb(3, 3, 46);
+    margin: 0.5px;
+    width: 200px;
+    height: 85px;
+    padding: 15px 5px;
+    position: relative;
+}
+.sfdfield h4{
+    margin: 0 0 5px 0;
+    display: inline-block;
+}
+.sfdfield i{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    background-color: black;
+    color: rgb(245, 245, 11);
+}
+#bar{
+    display: none;
+}
+ 
+/* bottom layer */
+#bottom_layerflex{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #c2cacd;
+}
+#blfchild1{
+    flex: 1;
+}
+#infodwn{
+    width: 400px;
+    text-align: center;
+    color: black;
+    margin: 50px auto 0;
+}
+#blfchild2{
+    flex: 1;
+}
+#img_contdwn{
+    height: 100%;
+    width: 300px;
+    background-size: cover;
+    margin: auto;
+}
+
+/* still working on this */
+@media screen and (max-width: 760px){
+    #bar{
+        display: inline-block;
+    }
+}
